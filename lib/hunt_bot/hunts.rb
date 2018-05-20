@@ -50,7 +50,14 @@ module HuntBot
         channels = CONFIG.a_rank_channel_ids
       end
 
-      channels.each { |id| @bot.channel(id)&.send_embed('', embed) }
+      begin
+        channels.each do |id|
+          @last_id = id
+          @bot.channel(id)&.send_embed('', embed)
+        end
+      rescue Discordrb::Errors::NoPermission
+        Discordrb::LOGGER.warn("Missing permissions for channel #{@last_id}")
+      end
     end
   end
 end
