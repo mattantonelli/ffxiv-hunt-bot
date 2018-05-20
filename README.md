@@ -8,7 +8,7 @@ This is a private bot. You will need to create and run your own Discord app to a
 
 1. [Create a new Discord app](https://discordapp.com/developers/applications/me)
 2. Click "Create a Bot User"
-3. Insert your client ID into the following URL: `https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bot&permissions=3072`
+3. Insert your client ID into the following URL: `https://discordapp.com/oauth2/authorize?client_id=INSERT_CLIENT_ID_HERE&scope=bot&permissions=19456`
 4. Follow the URL to add the bot to your server (requires the Manage Server permission)
 5. `git clone https://github.com/mattantonelli/ffxiv-hunt-bot`
 6. `cd ffxiv-hunt-bot`
@@ -28,6 +28,7 @@ These callouts are provided thanks to https://xivhunt.net/. If you are on PC, pl
 
 * Read Text Channels & See Voice Channels
 * Send Messages
+* Embed Links
 
 ## Deployment
 
