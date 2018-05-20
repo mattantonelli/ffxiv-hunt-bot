@@ -12,16 +12,18 @@ module HuntBot
     def poll(skip_report = false)
       hunts = JSON.parse(RestClient.get(HUNTS_URL), symbolize_names: true)[:hunts]
       hunts.each do |hunt|
-        next if hunt[:rank] == 'B'
         id, alive = hunt.values_at(:id, :lastAlive)
+        data = HUNTS[id]
+
+        next if data['rank'] == 'B'
 
         if !Redis.get(id) && alive
           # The hunt has been spotted
-          send_alive(HUNTS[id], hunt[:lastReported]) unless skip_report
+          send_alive(data, hunt[:lastReported]) unless skip_report
           Redis.set(id, 1)
         elsif Redis.get(id) && !alive
           # The hunt has been killed
-          send_dead(HUNTS[id], hunt[:lastReported]) unless skip_report
+          send_dead(data, hunt[:lastReported]) unless skip_report
           Redis.del(id)
         end
       end
@@ -48,7 +50,7 @@ module HuntBot
         channels = CONFIG.a_rank_channel_ids
       end
 
-      channels.each { |id| @bot.channel(id).send_embed('', embed) }
+      channels.each { |id| @bot.channel(id)&.send_embed('', embed) }
     end
   end
 end
