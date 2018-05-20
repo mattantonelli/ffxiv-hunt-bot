@@ -20,6 +20,10 @@ module HuntBot
       REDIS.hgetall(key)
     end
 
+    def keys
+      REDIS.keys
+    end
+
     def hkeys(key)
       REDIS.hkeys(key)
     end

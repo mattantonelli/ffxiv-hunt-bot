@@ -7,5 +7,10 @@ token: 'abc123'
 # World ID
 world_id: 12
 
-# Discord channel ID where updates will be posted
-channel_id: 23456
+# Channels where S ranks will be reported
+s_rank_channel_ids:
+  - 123456
+
+# Channels where A ranks will be reported
+a_rank_channel_ids:
+  - 234567

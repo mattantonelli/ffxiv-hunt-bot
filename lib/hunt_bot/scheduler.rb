@@ -8,7 +8,7 @@ module HuntBot
         error.backtrace.each { |line| Discordrb::LOGGER.error(line) }
       end
 
-      scheduler.cron('* * * * *') do
+      scheduler.every('20s') do
         hunts.poll
       end
     end

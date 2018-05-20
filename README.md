@@ -18,6 +18,12 @@ This is a private bot. You will need to create and run your own Discord app to a
     * Updated the example values appropriately
 9. `bundle exec ruby run.rb`
 
+---
+
+**Please consider pinning the following message in your hunt channels:**
+
+These callouts are provided thanks to https://xivhunt.net/. If you are on PC, please consider contributing to this data by running their client: https://xivhunt.net/Client. However, please keep in mind that this third party software violates FFXIV's EULA. Please be courteous when pulling. <3
+
 ## Permissions
 
 * Read Text Channels & See Voice Channels
