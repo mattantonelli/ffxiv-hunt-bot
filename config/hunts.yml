@@ -1,0 +1,554 @@
+2928:
+  zone: Middle La Noscea
+  rank: B
+  name: Skogs Fru
+
+2945:
+  zone: Middle La Noscea
+  rank: A
+  name: Vogaal Ja
+
+2962:
+  zone: Middle La Noscea
+  rank: S
+  name: Croque-Mitaine
+
+2929:
+  zone: Lower La Noscea
+  rank: B
+  name: Barbastelle
+
+2946:
+  zone: Lower La Noscea
+  rank: A
+  name: Unktehi
+
+2963:
+  zone: Lower La Noscea
+  rank: S
+  name: Croakadile
+
+2930:
+  zone: Eastern La Noscea
+  rank: B
+  name: Bloody Mary
+
+2947:
+  zone: Eastern La Noscea
+  rank: A
+  name: Hellsclaw
+
+2964:
+  zone: Eastern La Noscea
+  rank: S
+  name: The Garlok
+
+2931:
+  zone: Western La Noscea
+  rank: B
+  name: Dark Helmet
+
+2948:
+  zone: Western La Noscea
+  rank: A
+  name: Nahn
+
+2965:
+  zone: Western La Noscea
+  rank: S
+  name: Bonnacon
+
+2932:
+  zone: Upper La Noscea
+  rank: B
+  name: Myradrosh
+
+2949:
+  zone: Upper La Noscea
+  rank: A
+  name: Marberry
+
+2966:
+  zone: Upper La Noscea
+  rank: S
+  name: Nandi
+
+2933:
+  zone: Outer La Noscea
+  rank: B
+  name: Vuokho
+
+2950:
+  zone: Outer La Noscea
+  rank: A
+  name: Cornu
+
+2967:
+  zone: Outer La Noscea
+  rank: S
+  name: Chernobog
+
+2923:
+  zone: Western Thanalan
+  rank: B
+  name: Sewer Syrup
+
+2940:
+  zone: Western Thanalan
+  rank: A
+  name: Alectryon
+
+2957:
+  zone: Western Thanalan
+  rank: S
+  name: Zona Seeker
+
+2924:
+  zone: Central Thanalan
+  rank: B
+  name: Ovjang
+
+2941:
+  zone: Central Thanalan
+  rank: A
+  name: Sabotender Bailarina
+
+2958:
+  zone: Central Thanalan
+  rank: S
+  name: Brontes
+
+2925:
+  zone: Eastern Thanalan
+  rank: B
+  name: Gatling
+
+2942:
+  zone: Eastern Thanalan
+  rank: A
+  name: Maahes
+
+2959:
+  zone: Eastern Thanalan
+  rank: S
+  name: Lampalagua
+
+2926:
+  zone: Southern Thanalan
+  rank: B
+  name: Albin The Ashen
+
+2943:
+  zone: Southern Thanalan
+  rank: A
+  name: Zanig'oh
+
+2960:
+  zone: Southern Thanalan
+  rank: S
+  name: Nunyunuwi
+
+2927:
+  zone: Northern Thanalan
+  rank: B
+  name: Flame Sergeant Dalvag
+
+2944:
+  zone: Southern Thanalan
+  rank: A
+  name: Dalvag's Final Flame
+
+2961:
+  zone: Southern Thanalan
+  rank: S
+  name: Minhocao
+
+2919:
+  zone: Central Shroud
+  rank: B
+  name: White Joker
+
+2936:
+  zone: Central Shroud
+  rank: A
+  name: Forneus
+
+2953:
+  zone: Central Shroud
+  rank: S
+  name: Laideronnette
+
+2920:
+  zone: East Shroud
+  rank: B
+  name: Stinging Sophie
+
+2937:
+  zone: East Shroud
+  rank: A
+  name: Melt
+
+2954:
+  zone: East Shroud
+  rank: S
+  name: Wulgaru
+
+2921:
+  zone: South Shroud
+  rank: B
+  name: Monarch Ogrefly
+
+2938:
+  zone: South Shroud
+  rank: A
+  name: Ghede Ti Malice
+
+2955:
+  zone: South Shroud
+  rank: S
+  name: Mindflayer
+
+2922:
+  zone: North Shroud
+  rank: B
+  name: Phecda
+
+2939:
+  zone: North Shroud
+  rank: A
+  name: Girtab
+
+2956:
+  zone: North Shroud
+  rank: S
+  name: Thousand-Cast Theda
+
+2934:
+  zone: Coerthas Central Highlands
+  rank: B
+  name: Naul
+
+2951:
+  zone: Coerthas Central Highlands
+  rank: A
+  name: Marraco
+
+2968:
+  zone: Coerthas Central Highlands
+  rank: S
+  name: Safat
+
+2935:
+  zone: Mor Dhona
+  rank: B
+  name: Leech King
+
+2952:
+  zone: Mor Dhona
+  rank: A
+  name: Kurrea
+
+2969:
+  zone: Mor Dhona
+  rank: S
+  name: Agrippa The Mighty
+
+6008:
+  zone: The Fringes
+  rank: B
+  name: Shadow-Dweller Yamini
+
+6009:
+  zone: The Fringes
+  rank: B
+  name: Ouzelum
+
+5990:
+  zone: The Fringes
+  rank: A
+  name: Orcus
+
+5991:
+  zone: The Fringes
+  rank: A
+  name: Erle
+
+5987:
+  zone: The Fringes
+  rank: S
+  name: Udumbara
+
+6010:
+  zone: The Peaks
+  rank: B
+  name: Gwas-Y-Neidr
+
+6011:
+  zone: The Peaks
+  rank: B
+  name: Buccaboo
+
+5992:
+  zone: The Peaks
+  rank: A
+  name: Vochstein
+
+5993:
+  zone: The Peaks
+  rank: A
+  name: Aqrabuamelu
+
+5988:
+  zone: The Peaks
+  rank: S
+  name: Bone Crawler
+
+6012:
+  zone: The Lochs
+  rank: B
+  name: Manes
+
+6013:
+  zone: The Lochs
+  rank: B
+  name: Kiwa
+
+5994:
+  zone: The Lochs
+  rank: A
+  name: Mahisha
+
+5995:
+  zone: The Lochs
+  rank: A
+  name: Luminare
+
+5989:
+  zone: The Lochs
+  rank: S
+  name: Salt And Light
+
+6002:
+  zone: The Ruby Sea
+  rank: B
+  name: Gauki Strongblade
+
+6003:
+  zone: The Ruby Sea
+  rank: B
+  name: Guhuo Niao
+
+5996:
+  zone: The Ruby Sea
+  rank: A
+  name: Funa Yurei
+
+5997:
+  zone: The Ruby Sea
+  rank: A
+  name: Oni Yumemi
+
+5984:
+  zone: The Ruby Sea
+  rank: S
+  name: Okina
+
+6004:
+  zone: Yanxia
+  rank: B
+  name: Deidar
+
+6005:
+  zone: Yanxia
+  rank: B
+  name: Gyorai Quickstrike
+
+5998:
+  zone: Yanxia
+  rank: A
+  name: Gajasura
+
+5999:
+  zone: Yanxia
+  rank: A
+  name: Angada
+
+5985:
+  zone: Yanxia
+  rank: S
+  name: Gamma
+
+6006:
+  zone: The Azim Steppe
+  rank: B
+  name: Kurma
+
+6007:
+  zone: The Azim Steppe
+  rank: B
+  name: Aswang
+
+6000:
+  zone: The Azim Steppe
+  rank: A
+  name: Girimekhala
+
+6001:
+  zone: The Azim Steppe
+  rank: A
+  name: Sum
+
+5986:
+  zone: The Azim Steppe
+  rank: S
+  name: Orghana
+
+4352:
+  zone: The Dravanian Forelands
+  rank: B
+  name: Gnath Cometdrone
+
+4353:
+  zone: The Dravanian Forelands
+  rank: B
+  name: Thextera
+
+4364:
+  zone: The Dravanian Forelands
+  rank: A
+  name: Pylraster
+
+4365:
+  zone: The Dravanian Forelands
+  rank: A
+  name: Lord Of The Wyverns
+
+4375:
+  zone: The Dravanian Forelands
+  rank: S
+  name: Senmurv
+
+4354:
+  zone: The Dravanian Hinterlands
+  rank: B
+  name: Pterygotus
+
+4355:
+  zone: The Dravanian Hinterlands
+  rank: B
+  name: False Gigantopithecus
+
+4366:
+  zone: The Dravanian Hinterlands
+  rank: A
+  name: Slipkinx Steeljoints
+
+4367:
+  zone: The Dravanian Hinterlands
+  rank: A
+  name: Stolas
+
+4376:
+  zone: The Dravanian Hinterlands
+  rank: S
+  name: The Pale Rider
+
+4356:
+  zone: The Churning Mists
+  rank: B
+  name: Scitalis
+
+4357:
+  zone: The Churning Mists
+  rank: B
+  name: The Scarecrow
+
+4368:
+  zone: The Churning Mists
+  rank: A
+  name: Bune
+
+4369:
+  zone: The Churning Mists
+  rank: A
+  name: Agathos
+
+4377:
+  zone: The Churning Mists
+  rank: S
+  name: Gandarewa
+
+4358:
+  zone: The Sea of Clouds
+  rank: B
+  name: Squonk
+
+4359:
+  zone: The Sea of Clouds
+  rank: B
+  name: Sanu Vali Of Dancing Wings
+
+4370:
+  zone: The Sea of Clouds
+  rank: A
+  name: Enkelados
+
+4371:
+  zone: The Sea of Clouds
+  rank: A
+  name: Sisiutl
+
+4378:
+  zone: The Sea of Clouds
+  rank: S
+  name: Bird Of Paradise
+
+4360:
+  zone: Azys Lla
+  rank: B
+  name: Lycidas
+
+4361:
+  zone: Azys Lla
+  rank: B
+  name: Omni
+
+4372:
+  zone: Azys Lla
+  rank: A
+  name: Campacti
+
+4373:
+  zone: Azys Lla
+  rank: A
+  name: Stench Blossom
+
+4380:
+  zone: Azys Lla
+  rank: S
+  name: Leucrotta
+
+4350:
+  zone: Coerthas Western Highlands
+  rank: B
+  name: Alteci
+
+4351:
+  zone: Coerthas Western Highlands
+  rank: B
+  name: Kreutzet
+
+4362:
+  zone: Coerthas Western Highlands
+  rank: A
+  name: Mirka
+
+4363:
+  zone: Coerthas Western Highlands
+  rank: A
+  name: Lyuba
+
+4374:
+  zone: Coerthas Western Highlands
+  rank: S
+  name: Kaiser Behemoth

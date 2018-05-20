@@ -1,0 +1,11 @@
+# Bot client ID
+client_id: 12345
+
+# Bot token
+token: 'abc123'
+
+# World ID
+world_id: 12
+
+# Discord channel ID where updates will be posted
+channel_id: 23456
