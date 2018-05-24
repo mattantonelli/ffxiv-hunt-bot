@@ -57,6 +57,9 @@ module HuntBot
         end
       rescue Discordrb::Errors::NoPermission
         Discordrb::LOGGER.warn("Missing permissions for channel #{@last_id}")
+      rescue Exception => e
+        Discordrb::LOGGER.error(e)
+        e.backtrace.each { |line| Discordrb::LOGGER.error(line) }
       end
     end
   end
