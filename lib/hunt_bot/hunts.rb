@@ -19,12 +19,12 @@ module HuntBot
 
         if !Redis.get(id) && alive
           # The hunt has been spotted
-          send_alive(data, hunt[:lastReported]) unless skip_report
           Redis.set(id, 1)
+          send_alive(data, hunt[:lastReported]) unless skip_report
         elsif Redis.get(id) && !alive
           # The hunt has been killed
-          send_dead(data, hunt[:lastReported]) unless skip_report
           Redis.del(id)
+          send_dead(data, hunt[:lastReported]) unless skip_report
         end
       end
     end
