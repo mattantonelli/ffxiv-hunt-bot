@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'json'
+require 'open-uri'
 require 'ostruct'
 require 'yaml'
 
@@ -8,7 +9,7 @@ Bundler.require(:default)
 
 module HuntBot
   CONFIG = OpenStruct.new(YAML.load_file('config/config.yml'))
-  HUNTS  = YAML.load_file('config/hunts.yml')
+  WORLDS = CONFIG.worlds[CONFIG.data_center]
 
   Dir['lib/hunt_bot/*.rb'].each { |file| load file }
 

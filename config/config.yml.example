@@ -4,8 +4,8 @@ client_id: 12345
 # Bot token
 token: 'abc123'
 
-# World ID
-world_id: 12
+# Data center to report
+data_center: 'Primal'
 
 # Channels where S ranks will be reported
 s_rank_channel_ids:
@@ -14,3 +14,110 @@ s_rank_channel_ids:
 # Channels where A ranks will be reported
 a_rank_channel_ids:
   - 234567
+
+# Zones to report
+regions:
+  - 'Norvrandt'
+  - 'La Noscea'
+  - 'Thanalan'
+  - 'Gyr Abania'
+  - 'Othard'
+  - 'The Black Shroud'
+  - 'Dravania'
+  - 'Abalathia'
+  - 'Coerthas'
+  - 'Mor Dhona'
+
+# World IDs and names, grouped by data center
+worlds:
+  Aether:
+    Adamantoise: 73
+    Cactuar: 79
+    Faerie: 54
+    Gilgamesh: 63
+    Jenova: 40
+    Midgardsormr: 65
+    Sargatanas: 99
+    Siren: 57
+  Elemental:
+    Aegis: 90
+    Atomos: 68
+    Carbuncle: 45
+    Garuda: 58
+    Gungnir: 94
+    Kujata: 49
+    Ramuh: 60
+    Tonberry: 72
+    Typhon: 50
+    Unicorn: 30
+  Gaia:
+    Alexander: 43
+    Bahamut: 69
+    Durandal: 92
+    Fenrir: 46
+    Ifrit: 59
+    Ridill: 98
+    Tiamat: 76
+    Ultima: 51
+    Valefor: 52
+    Yojimbo: 31
+    Zeromus: 32
+  Mana:
+    Anima: 44
+    Asura: 23
+    Belias: 24
+    Chocobo: 70
+    Hades: 47
+    Ixion: 48
+    Mandragora: 82
+    Masamune: 96
+    Pandaemonium: 28
+    Shinryu: 29
+    Titan: 61
+  Crystal:
+    Balmung: 91
+    Brynhildr: 34
+    Coeurl: 74
+    Diabolos: 62
+    Goblin: 81
+    Malboro: 75
+    Mateus: 37
+    Zalera: 41
+  Primal:
+    Behemoth: 78
+    Excalibur: 93
+    Exodus: 53
+    Famfrit: 35
+    Hyperion: 95
+    Lamia: 55
+    Leviathan: 64
+    Ultros: 77
+  Chaos:
+    Cerberus: 80
+    Louisoix: 83
+    Moogle: 71
+    Omega: 39
+    Ragnarok: 97
+    Spriggan: 85
+  Light:
+    Lich: 36
+    Odin: 66
+    Phoenix: 56
+    Shiva: 67
+    Twintania: 33
+    Zodiark: 42
+  Korea:
+    모그리: 2077
+    초코보: 2076
+    카벙클: 2075
+    톤베리: 2078
+  China:
+    幻影群岛: 1044
+    延夏: 1169
+    拉诺西亚: 1042
+    摩杜纳: 1045
+    神意之地: 1081
+    紫水栈桥: 1043
+    红玉海: 1167
+    萌芽池: 1060
+    静语庄园: 1106
