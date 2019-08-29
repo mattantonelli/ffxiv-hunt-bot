@@ -2,6 +2,11 @@
 
 Discord bot for announcing hunts as they are reported on [XIV-Hunt](https://xivhunt.net/). Powered by [discordrb](https://github.com/meew0/discordrb).
 
+## Dependencies
+
+* Ruby (2.4.1)
+* Redis
+
 ## Installation
 
 This is a private bot. You will need to create and run your own Discord app to add it to your server.
