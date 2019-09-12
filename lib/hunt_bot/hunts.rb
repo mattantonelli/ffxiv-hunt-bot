@@ -63,8 +63,8 @@ module HuntBot
 
     def send_message(hunt, status, color)
       embed = Discordrb::Webhooks::Embed.new(color: color,
-                                             description: "**#{hunt[:name]}** #{status} in **#{hunt[:zone]}** on " \
-                                             "**#{hunt[:world]}**.\n#{hunt[:position]}",
+                                             description: "**#{hunt[:name]} (#{hunt[:rank]})** #{status} in "\
+                                             "**#{hunt[:zone]}** on **#{hunt[:world]}**.\n#{hunt[:position]}",
                                              timestamp: Time.now)
 
       case hunt[:rank]
