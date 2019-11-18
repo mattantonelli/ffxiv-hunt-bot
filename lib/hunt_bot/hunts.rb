@@ -49,7 +49,7 @@ module HuntBot
     def hunt_data(hunt, world, zone)
       text = hunt.text.strip.split(/\r\n\s+/)
       data = { world: world, zone: zone, rank: text[0], name: text[1],
-               position: "(#{text[2]&.scan(/\d+\.\d+/)&.join(', ')})" || '' }
+               position: text[2]&.scan(/\d+\.\d+/)&.join(', ') || '' }
       data if data[:rank].match?(/\A(A|S)\z/)
     end
 
@@ -62,9 +62,10 @@ module HuntBot
     end
 
     def send_message(hunt, status, color)
+      position = " (#{hunt[:position]})" unless hunt[:position].empty?
       embed = Discordrb::Webhooks::Embed.new(color: color,
                                              description: "**#{hunt[:name]} (#{hunt[:rank]})** #{status} in "\
-                                             "**#{hunt[:zone]}** on **#{hunt[:world]}**.\n#{hunt[:position]}",
+                                             "**#{hunt[:zone]}**#{position} on **#{hunt[:world]}**.",
                                              timestamp: Time.now)
 
       case hunt[:rank]
